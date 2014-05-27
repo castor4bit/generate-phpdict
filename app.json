@@ -1,0 +1,6 @@
+{
+  "name": "PHP.dict",
+  "description": "Generate PHP dictionary for vim",
+  "repository": "https://github.com/heroku/php-getting-started",
+  "addons": []
+}
