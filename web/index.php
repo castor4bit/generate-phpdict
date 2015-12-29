@@ -6,7 +6,14 @@ $keywords = array(
     'try', 'catch', 'return', 'exit', 'const', 'class', 'function',
     'require', 'include', 'require_once', 'include_once',
     'abstract', 'final', 'interface', 'private', 'protected', 'public', 'static',
-    '__LINE__', '__FILE__', '__DIR__', '__FUNCTION__', '__CLASS__', '__METHOD__', '__NAMESPACE__'
+    '__LINE__', '__FILE__', '__DIR__', '__FUNCTION__', '__CLASS__', '__METHOD__', '__NAMESPACE__',
+    // http://php.net/manual/ja/reserved.php
+    '__halt_compiler', 'and', 'array', 'callable', 'clone', 'die', 'echo', 'empty', 'eval',
+    'extends', 'finally', 'global', 'goto', 'implements', 'instanceof', 'insteadof', 'isset',
+    'list', 'namespace', 'new', 'or', 'print', 'throw', 'trait', 'unset', 'use', 'var',
+    'xor', 'yield', '__TRAIT__', 'self', 'parent',
+    'int', 'float', 'bool', 'string', 'true', 'false', 'null', 'resource', 'object', 'mixed', 'numeric'
+
 );
 $functions  = function_exists( 'get_defined_functions'   ) ? get_defined_functions()   : array();
 $constants  = function_exists( 'get_defined_constants'   ) ? get_defined_constants()   : array();
